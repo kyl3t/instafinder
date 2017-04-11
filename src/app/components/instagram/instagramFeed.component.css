@@ -1,0 +1,35 @@
+﻿.box {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.searchInstruction {
+    font-size: 15px;
+    text-align: center;
+    color: #152036;
+    font-weight: 600;
+}
+
+.searchBox {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    border: solid;
+    border-color: #9d9d9d;
+    border-width: 1.5px;
+}
+
+.feed {
+    padding: 20px 0 0 0;
+    background-color: #efefef
+}
+
+.loadBtn {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+#cardHolder {
+    padding: 10px 30px 10px 30px;
+}

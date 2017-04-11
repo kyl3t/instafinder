@@ -1,0 +1,15 @@
+﻿<div class="feed">
+    <div class="searchInstruction">Enter the username of the Instagram Account and press Enter</div>
+    <div class="box">
+        <input class="searchBox" [(ngModel)]="username" (keyup.enter)="updateCards()" />
+    </div>
+    <div>
+        <instagramuser [user]="instagramUser"></instagramuser>
+    </div>
+    <div class="row" ng-if="instagramCards">
+        <div class="col-md-4" id="cardHolder" *ngFor="let instaCard of instagramCards">
+            <instacard [card]=instaCard></instacard>
+        </div>
+    </div>
+    <button class="btn loadBtn" (click)="loadMore()">Load More</button>
+</div>
